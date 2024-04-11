@@ -1,8 +1,8 @@
 //import React from 'react'
 import Carousel from '../components/Carousel'
 import image1 from '../resources/content_creation/seven.png'
-import image2 from '../resources/content_creation/five.png'
-import image3 from '../resources/content_creation/six.png'
+import image2 from '../resources/content_creation/eight.png'
+import image3 from '../resources/content_creation/nine.png'
 import image4 from '../resources/18.png'
 import image5 from '../resources/9.png'
 import image6 from '../resources/8.png'
@@ -17,8 +17,7 @@ const Community = () => {
 
   return (
     <div className='bg-[#f0ebe1]'>
-      <h1 className="text-3xl md:text-4xl pt-4 font-big font-bold text-center mb-10">Communities</h1>
-      <h2 className="text-2xl md:text-3xl pt-4 font-extrabold text-gray-900 text-center mb-8">Similar Businessess</h2>
+      <h2 className="text-2xl md:text-3xl pt-4 font-extrabold text-gray-900 text-center mb-8">Communities Based Business</h2>
       <div className='flex flex-col md:flex-row'>
         <div className='w-full md:w-1/2'>
           <img src={image1} alt=" " className='h-auto w-full' />
