@@ -32,7 +32,7 @@ const Home = () => {
       <div
         style={containerStyles}
       >
-        <div className='bg-black bg-opacity-70 h-screen'>
+        <div className='bg-black bg-opacity-35 h-screen'>
           <Navbar />
         
           <Hero />
